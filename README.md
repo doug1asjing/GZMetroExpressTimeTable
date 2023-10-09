@@ -3,6 +3,8 @@
 
 用于展示个站点下一班快车时间
 
+目前只完成了21号线的时刻表
+
 
 图标来自：
 <a href="https://www.flaticon.com/free-icons/urgent" title="urgent icons">Urgent icons created by cah nggunung - Flaticon</a>
