@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_Yuancun">
+
+    <fragment
+        android:id="@+id/nav_Yuancun"
+        android:name="com.douglasjing.expresstime.ui.station.MainFragment"
+        android:label="{stationName}"
+        tools:layout="@layout/fragment_home" >
+        <argument
+            android:name="stationName"
+            android:defaultValue="员村"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_TianhePark"
+        android:name="com.douglasjing.expresstime.ui.station.MainFragment"
+        android:label="{stationName}"
+        tools:layout="@layout/fragment_line14" >
+        <argument
+            android:name="stationName"
+            android:defaultValue="天河公园"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_Tangdong"
+        android:name="com.douglasjing.expresstime.ui.station.MainFragment"
+        android:label="{stationName}"
+        tools:layout="@layout/fragment_slideshow" >
+        <argument
+            android:name="stationName"
+            android:defaultValue="棠东"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_Huangcun"
+        android:name="com.douglasjing.expresstime.ui.station.MainFragment"
+        android:label="{stationName}"
+        tools:layout="@layout/fragment_home" >
+        <argument
+            android:name="stationName"
+            android:defaultValue="黄村"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_TianheSmartCity"
+        android:name="com.douglasjing.expresstime.ui.station.MainFragment"
+        android:label="{stationName}"
+        tools:layout="@layout/fragment_line14" >
+        <argument
+            android:name="stationName"
+            android:defaultValue="天河智慧城"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_ShenzhouRoad"
+        android:name="com.douglasjing.expresstime.ui.station.MainFragment"
+        android:label="{stationName}"
+        tools:layout="@layout/fragment_slideshow" >
+        <argument
+            android:name="stationName"
+            android:defaultValue="神舟路"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_Suyuan"
+        android:name="com.douglasjing.expresstime.ui.station.MainFragment"
+        android:label="{stationName}"
+        tools:layout="@layout/fragment_home" >
+        <argument
+            android:name="stationName"
+            android:defaultValue="苏元"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_Shuixi"
+        android:name="com.douglasjing.expresstime.ui.station.MainFragment"
+        android:label="{stationName}"
+        tools:layout="@layout/fragment_line14" >
+        <argument
+            android:name="stationName"
+            android:defaultValue="水西"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_Zhenlong"
+        android:name="com.douglasjing.expresstime.ui.station.MainFragment"
+        android:label="{stationName}"
+        tools:layout="@layout/fragment_slideshow" >
+        <argument
+            android:name="stationName"
+            android:defaultValue="镇龙"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_Fenggang"
+        android:name="com.douglasjing.expresstime.ui.station.MainFragment"
+        android:label="{stationName}"
+        tools:layout="@layout/fragment_home" >
+        <argument
+            android:name="stationName"
+            android:defaultValue="凤岗"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_ZengchengSquare"
+        android:name="com.douglasjing.expresstime.ui.station.MainFragment"
+        android:label="{stationName}"
+        tools:layout="@layout/fragment_line14" >
+        <argument
+            android:name="stationName"
+            android:defaultValue="增城广场"
+            app:argType="string" />
+    </fragment>
+
+
+</navigation>

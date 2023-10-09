@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Yuancun"
+            android:icon="@drawable/baseline_location_on_24"
+            android:title="员村" />
+        <item
+            android:id="@+id/nav_TianhePark"
+            android:icon="@drawable/baseline_location_on_24"
+            android:title="天河公园" />
+        <item
+            android:id="@+id/nav_Tangdong"
+            android:icon="@drawable/baseline_location_on_24"
+            android:title="棠东" />
+        <item
+            android:id="@+id/nav_Huangcun"
+            android:icon="@drawable/baseline_location_on_24"
+            android:title="黄村" />
+        <item
+            android:id="@+id/nav_TianheSmartCity"
+            android:icon="@drawable/baseline_location_on_24"
+            android:title="天河智慧城" />
+        <item
+            android:id="@+id/nav_ShenzhouRoad"
+            android:icon="@drawable/baseline_location_on_24"
+            android:title="神舟路" />
+        <item
+            android:id="@+id/nav_Suyuan"
+            android:icon="@drawable/baseline_location_on_24"
+            android:title="苏元" />
+        <item
+            android:id="@+id/nav_Shuixi"
+            android:icon="@drawable/baseline_location_on_24"
+            android:title="水西" />
+        <item
+            android:id="@+id/nav_Zhenlong"
+            android:icon="@drawable/baseline_location_on_24"
+            android:title="镇龙" />
+        <item
+            android:id="@+id/nav_Fenggang"
+            android:icon="@drawable/baseline_location_on_24"
+            android:title="凤岗" />
+        <item
+            android:id="@+id/nav_ZengchengSquare"
+            android:icon="@drawable/baseline_location_on_24"
+            android:title="增城广场" />
+    </group>
+</menu>
